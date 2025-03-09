@@ -1,0 +1,19 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// Define here you're sensors pins
+#define DHT_TYPE DHT11
+#define DHT_SENSOR_PIN 27 
+#define MQ2_SENSOR_PIN 25 
+#define PIR_PIN 26
+
+// Wi-Fi Credentials
+#define WIFI_SSID "xxxxxxx"
+#define WIFI_PASSWORD "*********"
+
+// Server endpoint where data from sensors will be send out
+#define SERVER_ENDPOINT "http://127.0.0.1"
+
+#define INTERVAL 3000
+
+#endif
